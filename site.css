@@ -1,0 +1,165 @@
+body {
+    background-color: lightblue;
+background-image: url("bgimage.jpg");
+    background-attachment: fixed;
+    background-size: 1366px;
+
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+th, td, tr {
+    	border: 2px groove olive;
+    	border-collapse: collapse;
+	padding-right:300px;
+	margin-top:250px;
+	font-weight: bold, italic;
+    	text-align: center;
+	text-color:red;
+	fill:red;
+background-color:black;
+color:white;
+float:center;
+}
+
+table
+{
+padding-left:250px;
+padding-top:140px;
+}
+
+a
+{
+text-decoration:none;
+color:Black;
+
+}
+
+nav, section, article
+{margin:5px; padding:20px;}
+
+#menu {
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 25%;
+    background-color: none;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#home, #onama, #katalog, #contact
+{
+width:30px;
+height:30px;
+padding:0px;
+margin:0px;
+margin-bottom:-10px;
+}
+
+b
+{
+padding:10px;
+margin-bottom:110px;
+margin-left:10px;
+}
+
+#novosti div
+{
+width:200px;
+height:100px;
+}
+
+
+#slika div
+{
+width:200px;
+}
+
+#slika
+{
+float:left;
+width:800px;
+height:500px;
+padding-left:0px;
+margin:0px;
+
+}
+
+#slijevo
+{
+float:left;
+padding-top:250px;
+padding-left:110px;
+}
+
+#sdesno
+{
+float:left;
+padding-top:210px;
+padding-left:0px;
+}
+
+#glavnaslika
+{
+float:left;
+padding-right:5px;
+}
+
+#strelica1
+{
+float:left;!important
+width:30px;
+height:40px;
+padding-left:90px;
+}
+
+.strelica2
+{
+float:left; !important
+padding-top:220px;
+padding-left:220px;x¸x
+width:40px;
+height:40px;
+}
+
+#contact2
+{
+border: 2px solid red;
+padding:30px;
+margin:30px;
+}
+
+#message
+{
+line-height:5;
+}
+
+#footer
+{
+float:left;
+padding-top:500px;
+padding-left:500px;
+
+}
+
+#tekstnovosti
+{
+color:yellow;
+font-style:italic;
+font-size:20px;
+font-family:monospace;
+float:left;
+}
