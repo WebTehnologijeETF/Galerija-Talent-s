@@ -4,18 +4,6 @@
 	<link rel="stylesheet" type="text/css" href="site.css">
 	<script src="validacija.js"></script>
 	<script src="ajaxload.js"></script><title>Poèetna stranica</title>
-	<!--<script>
-	$(function(){
-	  $("#includedContent").load("Footer.html");
-	});-->
-	</script>
-	<!--<table align="center" cellspacing="20px" bgcolor="black" width="1350">
-	<th> <a href="#" onclick="funkcija2()">POÈETNA</a></th>
-	<th> <a href="onama.html">O NAMA </a></th>
-	<th> <a href="katalog.html">KATALOG </a></th>
-	<th> <a href="contact.html">KONTAKT</a> </th>
-
-	</table>-->
 	</head>
 	<div id="jsn-master_inner">
 	<div id="jsn-page">
@@ -27,7 +15,7 @@
 	<div id=" jsn-modulecontainer">
 	<div id="jsn-modulecontainer_inner">
 	<div id="jsn-modulecontent">
-	<body>
+	<body id="polje">
 	<a href="#" onclick="funkcija2()"><img src="logo.png"></a>	
 	<ul class="menu-mainmenu menu-richmenu">
 	<li class="item1 order1 first">
@@ -128,13 +116,12 @@
 	</table>
 	-->
 </br></br></br>
+</body>
 <footer>
 
 	<div id="footer">
 &copy;Talent's 2015
 </div>
-	</footer
->	<div id="polje"> </div></body>
-
+	</footer>
 	
 	</html>
