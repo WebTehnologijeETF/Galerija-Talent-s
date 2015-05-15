@@ -16,7 +16,7 @@
 	<div id="jsn-modulecontainer_inner">
 	<div id="jsn-modulecontent">
 	<body id="polje">
-	<a href="#" onclick="funkcija2()"><img src="logo.png"></a>	
+	<a href="#" onclick="funkcija2()"><img src="logo.png" id="logoslika"></a>	
 	<ul class="menu-mainmenu menu-richmenu">
 	<li class="item1 order1 first">
 	<a id="pocetna" href="#" onclick="funkcija2()">
@@ -65,7 +65,7 @@
 	
 	</ul>
 
-	<li class="parent item64 order2">
+	<li id="liposeban" class="parent item64 order2">
 	<a href="#" onclick="funkcija3()">
 		<span>
 	<span class="jsn-menutitle">Kontakt</span>
@@ -125,3 +125,4 @@
 	</footer>
 	
 	</html>
+ 

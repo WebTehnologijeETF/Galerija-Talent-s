@@ -1734,7 +1734,7 @@ visibility:hidden;
 li, ul
 {
 float:left;
-display:block;
+display:block;padding-left:500px;
 }
 .item98order1
 {
@@ -1749,7 +1749,7 @@ margin-top:70px;
 }
 
 .item64
-{
+{margin-top:-167px;padding-left:250px;
 margin:-10px;
 padding:15px;
 margin-left:-35px;
@@ -1796,4 +1796,16 @@ margin-left:-60px;
 {
 float:left;
 display:block;
+}
+
+
+#logoslika
+{
+margin-left:-830px;
+}
+
+#liposeban
+{
+  margin-top: -215px;
+  padding-left: 250px;
 }
