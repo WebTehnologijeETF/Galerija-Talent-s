@@ -1,10 +1,32 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" type="text/css" href="site.css">
 	<script src="validacija.js"></script>
 	<script src="ajaxload.js"></script><title>Poèetna stranica</title>
 	</head>
+	<?php
+     $veza = new PDO("mysql:dbname=galerija-talent's;host=localhost;charset=utf8", "root", "");
+     $veza->exec("set names utf8");
+     $rezultat = $veza->query("select id, naslov, tekst, UNIX_TIMESTAMP(vrijeme) vrijeme2, autor from vijest order by vrijeme desc");
+$komentar=$veza->query("INSERT INTO komentar SET vijest=3, tekst='Blabla', autor='lksdkdf'");
+$komentar=$veza->query("INSERT INTO komentar SET vijest=3, tekst='Blabla', autor='lksdkdf'");
+$komentar=$veza->query("INSERT INTO komentar SET vijest=3, tekst='Blabla', autor='lksdkdf'");     
+if (!$rezultat) {
+          $greska = $veza->errorInfo();
+          print "SQL greška: " . $greska[2];
+          exit();
+     }
+
+
+     foreach ($rezultat as $vijest) {	
+          print "<h1>" . $vijest['naslov'] . "<h1>";
+print "<p>" . $vijest['tekst'] . "</p>";
+print "<h2>" . $vijest['autor'] . "</h2>";
+print "<h3>" . date("d.m.Y. (h:i)", $vijest['vrijeme2']) . "</h3><br>";
+     }
+    ?>
 	<div id="jsn-master_inner">
 	<div id="jsn-page">
 	<div id="jsn-header">
